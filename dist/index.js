@@ -28,8 +28,12 @@ const obj = {
     id: 1,
     name: "abc",
 };
-console.log("object id: ", obj.id);
-console.log("object name: ", obj.name);
+// console.log("object id: ", obj.id);
+// console.log("object name: ", obj.name);
+function calculations(num1, num2) {
+    return num1 + num2;
+}
+console.log("calculate", calculations(1, 2));
 // console.log(direction1.Up);
 // console.log(direction1.right);
 // console.log("name", nm);
