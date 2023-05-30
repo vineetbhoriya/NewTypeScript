@@ -41,8 +41,20 @@ function calculations(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-console.log("calculate", calculations(1,2))
+// console.log("calculate", calculations(1,2))
 
+// void function
+function log(message: string | number): void {
+  console.log("message: ", message);
+}
+log("hi");
 // console.log(direction1.Up);
 // console.log(direction1.right);
 // console.log("name", nm);
+
+function display<T>(item: T[]): any {
+    console.log("item",item)
+}
+
+let a = display<number>([1]);
+let b = display<string>(["namdfd"]);

@@ -33,7 +33,17 @@ const obj = {
 function calculations(num1, num2) {
     return num1 + num2;
 }
-console.log("calculate", calculations(1, 2));
+// console.log("calculate", calculations(1,2))
+// void function
+function log(message) {
+    console.log("message: ", message);
+}
+log("hi");
 // console.log(direction1.Up);
 // console.log(direction1.right);
 // console.log("name", nm);
+function display(item) {
+    console.log("item", item);
+}
+let a = display([1]);
+let b = display(["namdfd"]);
